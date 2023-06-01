@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #040714;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0.4;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    background-color: #040714;
+}
+
+.navImg{
+    height: 70px;
+}
+
+right-container{
+    display: block;
+    margin-left: auto;
+}
+
+#SignUpNow{
+    background-color: #1f80e0;
+    height: 30px;
+    padding: 0 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin:  10px;
+}
+
+#login{
+    border:white 1px solid;
+    font-size: inherit;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .2);
+
+}
+
+#login:hover{
+    background-color: #ffffff;
+    color: black;
+
+}
+
+/*.containerz{
+
+}*/
+
+/*header{
+    display: grid;
+        /*place-content: center;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navBar navBar navBar";
+}*/
+
+
+/*main{
+    display: grid;
+    /*place-content: center;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "SignOption . SignOption"
+    ". OnlysignDisney .";
+}*/
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*.navBarLog{
+    grid-area: navBar;
+    border: solid white 1px;
+    padding: 0.5%;
+    display: flex;
+    gap: 16px;
+}*/
+
+
+/*.OpSign{
+    grid-area: SignOption;
+    border: solid white 1px;
+
+
+}
+li{
+    border: solid white 1px;
+}
+
+/*.navImg{
+    border: solid white 1px;
+    width: 35%;
+    
+    margin-left: 1.5%;
+    margin-top: 0.5%;
+}*/
+.background{
+    width: 100%;
+    background-position: right;
+}
+.imgSignDS{
+    width: 50%;
+}
+.imgSignDSL{
+    width: 30%;
+}
