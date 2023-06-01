@@ -29,6 +29,7 @@ body{
     align-items: center;
     background-color: #040714;
     opacity: 10;
+    
 }
 
 .navImg{
@@ -212,6 +213,7 @@ p {
     color: #f9f9f9;
     font-weight: 380;
     letter-spacing:  .3;
+    text-align: center;
 }
 
 .signDisney{
@@ -274,4 +276,161 @@ h2{
     font-size: 40px;
 }
 
+.container-tree{
+    text-align: center;
+    padding: 5.6vw;
+    box-sizing: border-box;
+    position: relative;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.img-grid{
+    grid-gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.img-grid-center{
+    list-style: none;
+    border-radius: 4px;
+    overflow: hidden;
+    height: auto;
+    flex: 0 0 calc(33.3% - 16px);
+    width: calc(33.3% - 16px);
+
+
+}
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+}
+
+.containerfour{
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding: 5.6vw;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img-container-four{
+    position: relative;
+    display: block;
+    height: auto;
+    width: 100%;
+
+}
+.text-container{
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:  calc(50% - 5vw);
+    position: absolute;
+    padding: 0 2vw;
+}
+
+.grid-container-five{
+    display: flex;
+    grid-gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.container-five{
+    text-align: center;
+    padding: 5.6vw;
+}
+
+.grid-center-devices{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 0 0 calc(25% - 18px);
+    width: calc(25% - 18px);
+    align-items: center;
+    text-align: center;
+}
+
+.device{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.text-devices{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.logo-footer{
+    max-width: 180px;
+    display: block;
+    margin-bottom: 10px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info{
+    text-align: left;
+    font-size: 12px;
+    line-height: 22px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0 auto 15px;
+    position: relative;
+    padding-inline-start: 40px;
+
+}
+
+.info-footer{
+    padding: 8px 12px;
+    display: inline-block;
+    font-size: 12px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    margin-bottom: 0;
+    color: #f9f9f9;
+
+}
+
+.text-info{
+    font-size: 12px;
+    line-height: 22px;
+
+}
+
+footer{
+    padding: 26px 8px;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1024px;
+    display: flex;
+    
+
+}
